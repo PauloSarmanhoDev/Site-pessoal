@@ -122,6 +122,11 @@ img{
   margin-bottom: var(--mb-3);
 }
 
+.section-title2, .section-title, .section-subtitle2{
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
 .section-subtitle{
   display: block;
   color: var(--first-color);
@@ -291,6 +296,10 @@ img{
 
 /*========== ABOUT ==========*/
 .about__data{
+  text-align: center;
+}
+
+.about__data2{
   text-align: center;
 }
 
@@ -477,6 +486,13 @@ img{
   .app__data, .app__initial,
   .contact__container, .contact__initial{
     text-align: initial;
+  }
+
+  .about__container2,.about__data2, .about__initial2,
+  .app__data2, .app__initial2,
+  .contact__container2, .contact__initial2{
+    text-align: center;
+    align-items: center;
   }
 
   .about__img, .app__img{

@@ -377,6 +377,13 @@ img{
   margin-bottom: var(--mb-2);
 }
 .menu__img4{
+  width: 112px;
+  height: 112px;
+  align-self: center;
+  margin-bottom: var(--mb-2);
+  border-radius: 10%;
+}
+.menu__img5{
   width: 130px;
   height: 112px;
   align-self: center;

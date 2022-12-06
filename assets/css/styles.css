@@ -6,8 +6,8 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --first-color: #00a80e;
-  --first-color-alt: #00880b;
+  --first-color: #0080ca;
+  --first-color-alt: #00578a;
   --title-color: #ffffff;
   --text-color: #ffffff;
   --text-color-light: #ffffff;
@@ -231,7 +231,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgba(6,156,84,.5);
+  background: #0080ca;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .3s;
@@ -356,9 +356,28 @@ img{
   box-shadow: 0 2px 4px rgba(3,74,40,.15);
   padding: .75rem;
 }
-
-.menu__img{
-  width: 150px;
+/*imagens do menu*/
+.menu__img1{
+  width: 112px;
+  height: 112px;
+  align-self: center;
+  margin-bottom: var(--mb-2);
+  border-radius: 10%;
+}
+.menu__img2{
+  width: 112px;
+  height: 112px;
+  align-self: center;
+  margin-bottom: var(--mb-2);
+}
+.menu__img3{
+  width: 112px;
+  height: 112px;
+  align-self: center;
+  margin-bottom: var(--mb-2);
+}
+.menu__img4{
+  width: 130px;
   height: 112px;
   align-self: center;
   margin-bottom: var(--mb-2);
